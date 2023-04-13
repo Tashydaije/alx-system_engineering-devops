@@ -5,3 +5,4 @@
 * ls -l - script that display current directory contents in a long format
 * ls -la - script that display current directory contents, including hidden files (starting with .). Use the long format.
 * ls -na - script that displays current directory contents with user and group IDs displayed numerically.
+* mkdir /tmp/6-firstdirectory 
