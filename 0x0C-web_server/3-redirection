@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # configures an Nginx server so that /redirect_me is redirecting to another page
 
 # Install nginx
