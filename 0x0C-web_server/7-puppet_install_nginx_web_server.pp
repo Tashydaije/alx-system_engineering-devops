@@ -11,12 +11,26 @@ file { 'Website index file':
   require => Package['nginx'],
 }
 
-# Ensure 404 file is present and contains 'Ceci n'est pas une page'
-file { 'Website 404 file':
+# Ensure nginx to redirect /redirect_me to another page
+file { '/etc/nginx/sites-available/default':
   ensure  => present,
-  path    => '/var/www/html/404.html',
-  content => "Ceci n'est pas une page",
+  content => "server {
+    listen 80 default_server;
+    server_name _;
+    root /var/www/html;
+
+    location / {
+      return 200 'Hello World!';
+    }
+
+    location = /redirect_me {
+      return 301 https://github.com/Tashydaije;
+    }
+  }",
+  require => Package['nginx'],
+  notify  => Service['nginx'],
 }
+
 
 # Ensure nginx is running
 service { 'nginx':
