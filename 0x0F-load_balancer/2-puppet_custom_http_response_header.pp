@@ -2,7 +2,7 @@
 
 exec { 'update server':
   command  => 'apt-get update',
-  user     => 'root'
+  user     => 'root',
   provider => 'shell',
 }
 
