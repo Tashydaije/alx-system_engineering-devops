@@ -14,8 +14,8 @@ echo "frontend web_frontend
 
 backend web_servers
 	balance roundrobin
-	server web-01 100.26.20.151:80 check
-	server web-02 54.82.197.5:80 check
+	server 405101-web-01 100.26.20.151:80 check
+	server 405101-web-02 54.82.197.5:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 echo "ENABLED=1" >> /etc/default/haproxy
