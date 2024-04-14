@@ -34,6 +34,7 @@ Corrective and preventative measures must contain:
 
 Be brief and straight to the point, between 400 to 600 words
 
+## Solution
 
 You can find the Postmortem I wrote on this link: [Postportem](https://docs.google.com/document/d/1TV1ADUZrWKgS6346mIvJVOTyx1hSW39AB-5i48Eyaj0/edit?usp=sharing)
 
