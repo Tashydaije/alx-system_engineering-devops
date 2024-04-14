@@ -36,3 +36,6 @@ Be brief and straight to the point, between 400 to 600 words
 
 
 You can find the Postmortem I wrote on this link: [Postportem](https://docs.google.com/document/d/1TV1ADUZrWKgS6346mIvJVOTyx1hSW39AB-5i48Eyaj0/edit?usp=sharing)
+
+This is a second postmortem article that is quite humorous. Serves to catch YOUR attention. Give it a read!
+[Humorous Postportem](https://docs.google.com/document/d/1ar0e2qpav4Ed1gYwK4Vru0JfZB7VqOI68jNF1t_ddBw/edit?usp=sharing)
