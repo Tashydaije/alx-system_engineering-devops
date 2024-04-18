@@ -1,4 +1,4 @@
-# Puppet script that makes it possible to login with the holberton user and open a file without any error message.
+# Puppet script that makes it possible to login with the holberton user
 
 # User resource for holberton
 user { 'holberton':
@@ -7,7 +7,7 @@ user { 'holberton':
   shell  => '/bin/bash',
 }
 
-# Grant holberton user sudo privileges without password
+# Grant holberton user sudo privilage
 exec { 'grant_sudo_privilege':
   command => 'echo "holberton ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/holberton',
   path    => ['/bin', '/usr/bin'],
